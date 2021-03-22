@@ -1,0 +1,508 @@
+.h1, .h2, .h3, .h4, .h5, .h6, .h7, .h8 {
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 1.3em;
+    font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+    font-size: 22px;
+}
+
+.e1, .e2, .e3, .e4, .e5, .e6 {
+    font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+    max-width: 100%;
+    font-size: 16px;
+    color: #FF0000;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
+.signUpBody {
+    background: #2B2D35;
+    width: 100vw;
+    height: 100vh;
+}
+
+.e1 {
+    position: absolute;
+    left: 25%;
+    top: -40px;
+}
+
+.e2 {
+    position: absolute;
+    left: 25%;
+    top: 90px;
+}
+
+.e3 {
+    position: absolute;
+    left: 25%;
+    top: 220px;
+}
+
+.e4 {
+    visibility: visible;
+    position: fixed;
+    left: 52.5%;
+    top: 42%;
+}
+
+.e5 {
+    visibility: visible;
+    position: absolute;
+    left: 52.5%;
+    top: 57%;
+}
+
+.e6 {
+    visibility: visible;
+    position: absolute;
+    left: 52.5%;
+    top: 72%;
+}
+
+.h2 {
+    position: fixed;
+    left: 28%;
+    top: 30%;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+.h3 {
+    position: fixed;
+    left: 28%;
+    top: 45%;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+.h4 {
+    position: fixed;
+    left: 28%;
+    top: 60%;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+.h5 {
+    position: fixed;
+    left: 52.5%;
+    top: 30%;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+.h6 {
+    position: fixed;
+    left: 52.5%;
+    top: 45%;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+.h7 {
+    position: fixed;
+    left: 52.5%;
+    top: 60%;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+
+.usernameForm {
+    position: fixed;
+    left: 28%;
+    top: 35%;
+    font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+    font-size: 22px;
+    background: transparent;
+    padding: 0.7em 2em;
+    color: #FFFFFF;
+    margin-right: 10px;
+    border: 2px solid #FFFFFF;
+    display: block;
+    float: left;
+}
+
+.firstNameForm {
+    position: fixed;
+    left: 28%;
+    top: 50%;
+    font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+    font-size: 22px;
+    background: transparent;
+
+    padding: 0.7em 2em;
+    color: #FFFFFF;
+    margin-right: 10px;
+    border: 2px solid #FFFFFF;
+    display: block;
+    float: left;
+}
+
+.lastNameForm {
+    position: fixed;
+    left: 28%;
+    top: 65%;
+    font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+    font-size: 22px;
+    background: transparent;
+    padding: 0.7em 2em;
+    color: #FFFFFF;
+    margin-right: 10px;
+    border: 2px solid #FFFFFF;
+    display: block;
+    float: left;
+}
+
+.emailForm {
+    position: fixed;
+    left: 52.5%;
+    top: 35%;
+    font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+    font-size: 22px;
+    background: transparent;
+
+    padding: 0.7em 2em;
+    color: #FFFFFF;
+    margin-right: 10px;
+    border: 2px solid #FFFFFF;
+    display: block;
+    float: left;
+}
+
+
+.passwordForm {
+    position: fixed;
+    left: 52.5%;
+    top: 50%;
+    font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+    font-size: 22px;
+    background: transparent;
+
+    padding: 0.7em 2em;
+    color: #FFFFFF;
+    margin-right: 10px;
+    border: 2px solid #FFFFFF;
+    display: block;
+    float: left;
+}
+
+.confirmPasswordForm {
+    position: fixed;
+    left: 52.5%;
+    top: 65%;
+    font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+    font-size: 22px;
+    background: transparent;
+
+    padding: 0.7em 2em;
+    color: #FFFFFF;
+    margin-right: 10px;
+    border: 2px solid #FFFFFF;
+    display: block;
+    float: left;
+}
+
+
+.signUpBtn {
+    font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+    position: fixed;
+
+    left: 47%;
+    top: 77%;
+    background: transparent;
+    font-weight: 600;
+    padding: 0.7em 2em;
+    color: #FFFFFF;
+    margin-right: 10px;
+    border: 2px solid #FFFFFF;
+    display: block;
+    float: left;
+}
+
+.signUpBtn:hover {
+    background: #FFFFFF;
+    color: #2B2D35;
+    border-color: #FFFFFF;
+}
+
+.brandLogoSignUp {
+    position: fixed;
+    left: 46%;
+    top: 5%;
+    max-width: 250px;
+}
+
+.signUpOverlay {
+    position: fixed;
+    top: 0;
+    left: 0; /*-100*/
+    height: 100%;
+    overflow: visible;
+    width: 50%; /*100*/
+    opacity: 0;
+}
+
+
+.signUpOverlay2 {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: -50%; /*-50*/
+    background: rgba(32, 35, 45, 0.8);
+    width: 100%;
+    height: 100%;
+
+    border-right: 1px solid #15171e;
+
+}
+
+.center-side {
+    position: fixed;
+    left: 25%;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+    -moz-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+    -ms-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+    -o-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+    transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+}
+
+.center-side .content {
+    position: absolute;
+    z-index: 0;
+    left: -10%;
+    top: 50vh;
+    width: 100%;
+    padding: 0 10%;
+    -webkit-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+    -moz-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+    -ms-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+    -o-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+    transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    opacity: 1;
+    visibility: visible;
+}
+
+.confirmationForm {
+    position: fixed;
+    top: 30%;
+    left: 27%;
+    width: 46%;
+    height: 43%;
+    background-color: #2B2D35;
+    border: 2px solid #fff; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    opacity: 1;
+    -webkit-border-radius: 20px;
+}
+
+confirm {
+    position: relative;
+    top: 30%;
+    left: 18%;
+    font-family: Arial;
+    font-size: 28px;
+    color: #9d959d;
+}
+
+mail {
+    position: relative;
+    top: 50%;
+    left: -30%;
+    font-family: Arial;
+    font-size: 28px;
+    color: #9d959d;
+}
+
+.signUpContent {
+    opacity: 0;
+}
+
+.brandLogoSignUp {
+    position: fixed;
+    left: 46%;
+    top: 5%;
+    max-width: 250px;
+}
+
+.signUpForm {
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    width: 760px;
+    height: 70%;
+    opacity: 1;
+    -webkit-border-radius: 20px;
+}
+
+/*размер формы*/
+.uiForm {
+    position: relative;
+}
+
+/*название поля*/
+.textForm {
+    position: relative;
+    margin-top: 40px;
+    left: 20%;
+}
+
+/*стиль input'a*/
+.input {
+    composes: defaultInput from "../style.module.css";
+}
+
+/*стиль label'a*/
+.textForm label {
+    position: absolute;
+    left: 13px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    transform: translateY(-35px);
+    transition: all 0.2s ease;
+}
+
+.textForm label:hover {
+    cursor: text;
+}
+
+/*анимация*/
+.textForm input:focus + label,
+.textForm input:valid + label {
+    transform: translateY(-60px);
+    margin-left: -14px;
+    font-size: 14px;
+    font-weight: 400;
+    outline: 0;
+    border-color: #F77A52;
+    color: #F77A52;
+    opacity: 1;
+}
+
+.l1 {
+    color: #fff;
+    font-family: Arial, serif;
+    font-size: 20px;
+}
+
+.signUp {
+    composes: loginRegisterButton from "../style.module.css";
+}
+
+.disabledSignUp {
+    composes: loginRegisterButton from "../style.module.css";
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.disabledSignUp:hover {
+    border-color: #4a90e2;
+    color: #fff;
+}
+
+.signUp:hover {
+    background: transparent;
+    color: #fff;
+    border-color: #F77A52;
+}
+
+.errorForm label {
+    display: block;
+    width: 40%;
+    line-height: 40px;
+    text-align: center;
+    font-family: Arial, serif;
+    background: none;
+    border-width: 0;
+    transition: all 0.2s ease;
+    opacity: 1;
+}
+
+.usernameError {
+    position: fixed;
+    text-align: center;
+    top: 33%;
+    max-width: 100%;
+    font-size: 16px;
+    color: #FF0000;
+    font-weight: 400;
+    line-height: 1.3em;
+    font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+}
+
+.emailError {
+    position: fixed;
+    text-align: center;
+    top: 68%;
+    max-width: 100%;
+    font-size: 16px;
+    color: #FF0000;
+    font-weight: 400;
+    line-height: 1.3em;
+    font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+}
+
+.passwordMatchError {
+    position: fixed;
+    text-align: center;
+    top: 85%;
+    max-width: 100%;
+    font-size: 16px;
+    color: #FF0000;
+    font-weight: 400;
+    line-height: 1.3em;
+    font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+}
+
+.passwordEasyError {
+    position: fixed;
+    text-align: center;
+    top: 76%;
+    max-width: 100%;
+    font-size: 16px;
+    color: #FF0000;
+    font-weight: 400;
+    line-height: 1.3em;
+    font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+}
+
+.a {
+    color: #fff;
+}
+.ok{
+    top: 210px;
+    composes: loginRegisterButton from "../style.module.css";
+}
+.ok:hover {
+    background: transparent;
+    color: #fff;
+    /* Параметры рамки */
+    border: 2px solid #fff;
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+}

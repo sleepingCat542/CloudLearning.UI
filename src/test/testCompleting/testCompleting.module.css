@@ -1,0 +1,159 @@
+/*.timer {*/
+/*    position: relative;*/
+/*    top: 100px;*/
+/*    left: 5px;*/
+/*    color: black;*/
+/*}*/
+.timer{
+    color: #F77A52;
+    font-family: Arial;
+    font-size: 16px;
+
+    position: fixed;
+    top: 7%;
+    left: 430px;
+    width: 5em;
+    height: 5em;
+    border: 2px solid #4a90e2;
+    border-radius: 50%;
+    line-height: 5em;  /* подробнее про line-height */
+    text-align: center;  /* выравнять текст по середине по горизонтали */
+
+}
+.form1{
+    position: fixed;
+    top: 50px;
+    left: 21%;
+    width: 76%;
+    height: 90%;
+    background-color: #fff;
+    opacity: 1;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+}
+
+.testName, .description{
+    color: #454545;
+    font-family: Arial;
+    font-size: 20px;
+}
+.questionName{
+    position: relative;
+    left: 100px;
+    color: #454545;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.uiForm {
+    max-width: 95%;
+    padding: 15px 0px 0px;
+    margin: 0px auto 30px 30px;
+    background: white;
+}
+/*название поля*/
+.textForm {
+    position: relative;
+    margin-top: 50px;
+    word-wrap: break-word;
+}
+.textForm label {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 0 10px;
+    line-height: 40px;
+    font-family: Arial;
+    background: none;
+    border-width: 0;
+    border-bottom: 2px solid #4a90e2;
+    transition: all 0.2s ease;
+}
+.duration{
+    color: #F77A52;
+    font-family: Arial;
+    font-size: 16px;
+
+    position: fixed;
+    top: 60px;
+    left: 420px;
+    width: 5em;
+    height: 5em;
+    border: 2px solid #4a90e2;
+    border-radius: 50%;
+    line-height: 5em;  /* подробнее про line-height */
+    text-align: center;  /* выравнять текст по середине по горизонтали */
+
+}
+.start {
+    position: relative;
+    left: 45%;
+    top: 5%;
+    width: 150px;
+    height: 40px;
+    font-family: Arial;
+    font-size: 18px;
+    background: transparent;
+    color: #454545;
+    border: 2px solid #4a90e2;
+
+}
+.start:hover {
+    background: #FFFFFF;
+    color: #2B2D35;
+    border-color: #F77A52;
+}
+
+
+.button {
+    position: relative;
+    top: 50px;
+    width: 170px;
+    height: 40px;
+    font-family: Arial;
+    font-size: 18px;
+    background: transparent;
+    color: #454545;
+    border: 2px solid #4a90e2;
+
+}
+.button:hover {
+    background: #FFFFFF;
+    color: #2B2D35;
+    border-color: #F77A52;
+}
+
+.prev{
+    position: marker;
+    margin-left: 35%;
+    margin-top: 0%;
+}
+.add{
+    position: marker;
+    margin-left: 50%;
+    margin-top: -2.7%;
+}
+.circleButton {
+
+    width: 5em;
+    height: 5em;
+    font-family: Arial;
+    border: 2px solid #4a90e2;
+    border-radius: 50%;
+    font-size: 18px;
+    background: transparent;
+    color: #454545;
+
+}
+.circleButton:hover {
+    background: #FFFFFF;
+    color: #2B2D35;
+    border-color: #F77A52;
+}
+.save{
+    position: fixed;
+    left: 91%;
+    top: 7%;
+}

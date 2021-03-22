@@ -1,0 +1,25 @@
+.text {
+    max-width: 85%;
+    background: white;
+    position: relative;
+    margin-top: 0px;
+    padding-bottom: 50px;
+    left: 100px;
+    top: 50px;
+
+}
+/*стиль input'a*/
+.text input {
+    display: block;
+    width: 100%;
+    padding: 0 10px    ;
+    line-height: 40px;
+    margin-top: 7px;
+    font-family: Arial;
+    font-size: 20px;
+    background: none;
+    border-width: 0;
+    border-bottom: 2px solid #adb5bd;
+    color: #adb5bd;
+
+}

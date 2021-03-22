@@ -1,0 +1,80 @@
+
+.addAnswer {
+    position: relative;
+    left: 35%;
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    font-family: Arial;
+    font-size: 18px;
+    background: transparent;
+    color: #454545;
+    border: 2px solid #4a90e2;
+
+}
+.addAnswer:hover {
+    background: #FFFFFF;
+    color: #2B2D35;
+    border-color: #F77A52;
+}
+.remove{
+    position: relative;
+    top: -20px;
+    left: 550px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    border: 2px solid #4a90e2;
+    border-radius: 50%;
+}
+
+.remove:before,
+.remove:after {
+    content: "";
+    position: absolute;
+    top: 16px;
+    left: 8px;
+    width: 16px;
+    height: 2px;
+    background: #454545;
+}
+
+.remove:before {
+    webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.remove:after {
+    webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.remove:hover {
+
+    background: #FFFFFF;
+    color: #2B2D35;
+    border-color: #F77A52;
+}
+/*название поля*/
+.text {
+    max-width: 350px;
+    background: white;
+    position: relative;
+    margin-top: 0px;
+    left: 150px;
+    top: 10px;
+}
+/*стиль input'a*/
+.text input {
+    display: block;
+    width: 100%;
+    padding: 0 10px;
+    line-height: 40px;
+    font-family: Arial;
+    font-size: 20px;
+    background: none;
+    border-width: 0;
+    border-bottom: 2px solid #4a90e2;
+    transition: all 0.2s ease;
+
+}

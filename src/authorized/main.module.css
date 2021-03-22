@@ -1,0 +1,356 @@
+/*  General CSS*/
+body {
+    background: #7f7f7f;
+}
+
+/*  Header  */
+
+.header {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    min-height: 100%;
+    padding: 50px;
+    background: #2e2e2e;
+    float: left;
+    z-index: 9999;
+}
+
+header .logo {
+
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+username {
+    position: fixed;
+    top: 55px;
+    left: 150px;
+    font-family: Arial;
+    font-size: 20px;
+    color: #4a90e2;
+}
+
+name {
+    position: fixed;
+    top: 90px;
+    left: 150px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #F77A52;
+}
+
+header nav ul {
+    display: block;
+    overflow: hidden;
+    margin-top: 60px;
+    list-style: none;
+}
+
+header nav ul li {
+    display: block;
+    margin-bottom: 30px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+header nav ul li a:hover,
+header nav ul li a.selected {
+    color: #969595;
+}
+
+.icons {
+    position: fixed;
+    top: 90%;
+    left: 30px;
+}
+
+.message {
+    position: relative;
+}
+
+search:hover {
+    background: url("/img/message2.png");
+}
+
+info {
+    position: fixed;
+    top: 90%;
+    left: 100px;
+}
+
+search {
+    position: fixed;
+    top: 90%;
+    left: 170px;
+}
+
+search:hover {
+    background: url("/img/search2.png");
+}
+
+translate {
+    position: fixed;
+    top: 90%;
+
+    left: 250px;
+}
+
+hr {
+    margin-top: 30px;
+}
+
+.mainForm {
+
+    position: fixed;
+    top: 50px;
+    left: 21%;
+    width: 76%;
+    height: 90%;
+    background-color: #fff;
+    opacity: 1;
+    -webkit-border-radius: 20px;
+}
+
+.profileForm {
+
+    position: fixed;
+    top: 50px;
+    left: 61%;
+    width: 700px;
+    height: 90%;
+    background-color: #fff;
+    opacity: 1;
+    -webkit-border-radius: 20px;
+}
+
+.contentForm {
+    position: fixed;
+    top: 50px;
+    left: 21%;
+    width: 700px;
+    height: 90%;
+    background-color: #fff;
+    opacity: 1;
+    overflow: auto;
+    -webkit-border-radius: 20px;
+}
+
+.profileImg {
+    position: relative;
+    left: 30%;
+    top: 25px;
+    border-radius: 50%; /* Радиус скругления */
+    border: 0 solid black; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
+.edit {
+    position: fixed;
+    left: 93%;
+    top: 10%;
+}
+
+.edit:hover {
+    background: url("/img/edit2.png");
+}
+
+.cancel {
+    position: fixed;
+    left: 93%;
+    top: 10%;
+}
+
+.cancel:hover {
+    background: url("/img/cancel2.png");
+}
+
+.ok {
+    position: fixed;
+    left: 63%;
+    top: 10%;
+}
+
+.ok:hover {
+    background: url("/img/ok2.png");
+}
+
+/*размер формы*/
+.uiForm {
+    max-width: 350px;
+    padding: 0 0 0;
+    margin: 0 auto 30px;
+    background: white;
+}
+
+/*название поля*/
+.textForm {
+    position: relative;
+    top: 50px;
+    margin-top: 50px;
+}
+
+/*стиль input'a*/
+.textForm input {
+    border: none;
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    font-family: Arial, serif;
+    font-size: 28px;
+    color: #9d959d;
+    border-bottom: 2px solid #4a90e2;
+
+}
+
+/*стиль label'a*/
+.textForm label {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    color: #F77A52;
+    font-family: Arial, serif;
+    font-size: 16px;
+    font-weight: 300;
+    transform: translateY(-35px);
+    transition: all 0.2s ease;
+}
+
+.userName, .firstName, .lastName, .email, .groupNum {
+    display: block;
+    outline: none;
+    border: none;
+    width: 100%;
+    line-height: 40px;
+    font-family: Arial, serif;
+    font-size: 28px;
+    color: #9d959d;
+    border-bottom: 2px solid #4a90e2;
+    cursor: default;
+}
+
+.contentForm label {
+    position: relative;
+    left: 35%;
+    top: 5%;
+    color: #F77A52;
+    font-size: 28px;
+    line-height: 70px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, serif;
+    font-size: 20px;
+    color: #9d959d;
+}
+
+a:hover,
+a.selected {
+    color: #fff;
+}
+
+.groupNum:hover {
+    color: #aaaaaa;
+    cursor: pointer;
+}
+
+div.selected {
+    cursor: default;
+    color: #fff;
+}
+
+
+.tab {
+    position: relative;
+    top: 20px;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 20px;
+    color: #9d959d;
+}
+
+.tabTitle {
+    display: block; /* Блочный элемент */
+    width: 250px;
+    cursor: pointer; /* Вид курсора */
+}
+
+.tabContent {
+    padding: 20px 20px; /* Поля вокруг текста */
+}
+
+.result {
+    position: relative;
+    left: 50px;
+    margin-top: 30px;
+    color: #2e2e2e;
+}
+
+.result:hover {
+    color: #aaaaaa;
+}
+
+.date {
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.name {
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.mark {
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.inDeveloping {
+    position: relative;
+    text-align: center;
+    top: 35%;
+    font-family: Arial;
+    font-size: 24px;
+}
+
+.list {
+    position: relative;
+    top: 100px;
+    left: 30px;
+    width: 640px;
+    height: 75%;
+    background-color: #Fff;
+    opacity: 1;
+    overflow: auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    display: block;
+    position: relative;
+    top: 50px;
+    width: 100%;
+    line-height: 40px;
+    font-family: Arial, serif;
+    font-size: 24px;
+    text-align: center;
+    color: #9d959d;
+    border-bottom: 2px solid #4a90e2;
+    cursor: default;
+
+}
+
+.logo2 {
+    position: relative;
+    top: 40%;
+    left: 44.3%;
+}

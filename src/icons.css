@@ -1,0 +1,21 @@
+@import url(./indexPage/style.module.css);
+
+.ru {
+	position: absolute;
+	left: 180%;
+	top: 5%;
+	max-width: 50px;
+}
+.ru:hover {
+	background: url("./img/ru-2.png");
+}
+
+.en {
+	position: absolute;
+	left: 187%;
+	top: 5%;
+	max-width: 50px;
+}
+.en:hover {
+	background: url("./img/en-2.png");
+}

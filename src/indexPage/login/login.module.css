@@ -1,0 +1,198 @@
+.l1{
+
+    color: #fff;
+    font-family: Arial, serif;
+    font-size: 20px;
+}
+
+.loginBody {
+    background: #2B2D35;
+    width: 100vw;
+    height: 100vh;
+}
+
+.loginPage {
+    background-image: url("/src/img/slide-4.jpg");
+}
+
+.loginError {
+    position: fixed;
+    text-align: center;
+    top: 26%;
+    max-width: 100%;
+    font-size: 20px;
+    color: #FF0000;
+    font-weight: 400;
+    line-height: 1.3em;
+    font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+}
+
+
+.brandLogoLogin {
+    position: fixed;
+    left: 46%;
+    top: 5%;
+    max-width: 250px;
+}
+
+.loginContent {
+    opacity: 0;
+}
+
+
+.loginOverlay {
+
+    position: fixed;
+    top: 0;
+    left: 0vw; /*-100*/
+    height: 100%;
+    overflow: visible;
+    width: 50%; /*100*/
+    opacity: 0;
+}
+
+.loginOverlay2 {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: -50%;/*-50*/
+    background: rgba(32, 35, 45, 0.8);
+    width: 100%;
+    height: 100%;
+
+    border-right: 1px solid #15171e;
+
+}
+
+.center-side {
+    position: fixed;
+    left: 25%;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+    -moz-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+    -ms-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+    -o-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+    transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+}
+.center-side .content {
+    position: fixed;
+    z-index: 0;
+    left: -10%;
+    top: 50vh;
+    width: 100%;
+    -webkit-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+    -moz-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+    -ms-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+    -o-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+    transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    opacity: 1;
+    visibility: visible;
+}
+.loginForm{
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    width: 760px;
+    height: 40%;
+    opacity: 1;
+    -webkit-border-radius: 20px;
+}
+/*размер формы*/
+.uiForm {
+    position: relative;
+}
+/*название поля*/
+.textForm {
+    position: relative;
+    margin-top: 50px;
+    left: 20%;
+}
+/*стиль input'a*/
+.input {
+    composes: defaultInput from "../style.module.css";
+}
+
+/*стиль label'a*/
+.textForm label {
+    position: absolute;
+    left: 13px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    transform: translateY(-35px);
+    transition: all 0.2s ease;
+}
+
+.textForm label:hover{
+    cursor: text;
+}
+
+/*анимация*/
+.textForm input:focus + label,
+.textForm input:valid + label {
+    transform: translateY(-60px);
+    margin-left: -14px;
+    font-size: 14px;
+    font-weight: 400;
+    outline: 0;
+    border-color: #F77A52;
+    color: #F77A52;
+    opacity: 1;
+}
+.login{
+    composes: loginRegisterButton from "../style.module.css";
+}
+.login:hover {
+    background: transparent;
+    color: #fff;
+    border-color: #F77A52;
+}
+.errorForm label {
+    display: block;
+    width: 40%;
+    line-height: 40px;
+    text-align: center;
+    font-family: Arial;
+    background: none;
+    border-width: 0;
+    transition: all 0.2s ease;
+    opacity: 1;
+}
+.passwordRecoveryForm {
+    position: fixed;
+    top: 30%;
+    left: 27%;
+    width: 46%;
+    height: 43%;
+    background-color: #2B2D35;
+    border: 2px solid #fff; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    opacity: 1;
+    -webkit-border-radius: 20px;
+}
+.ok{
+    top: 210px;
+    composes: loginRegisterButton from "../style.module.css";
+}
+.ok:hover {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    border-color: #fff;
+}
+.position{
+    position: relative;
+    top: -150px;
+}

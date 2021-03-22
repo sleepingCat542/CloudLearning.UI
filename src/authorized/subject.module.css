@@ -1,0 +1,165 @@
+.teacherForm {
+    position: fixed;
+    top: 30%;
+    left: 21%;
+    width: 20%;
+    height: 65%;
+    background-color: #fff;
+    opacity: 1;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+}
+.testForm {
+    position: fixed;
+    top: 50px;
+    left: 44%;
+    width: 53%;
+    height: 90%;
+    background-color: #fff;
+    opacity: 1;
+    -webkit-border-radius: 20px;
+}
+.nameForm {
+    position: fixed;
+    top: 50px;
+    left: 21%;
+    width:20%;
+    height: 20%;
+    background-color: #fff;
+    opacity: 1;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+}
+/*размер формы*/
+.uiForm {
+    max-width: 350px;
+    padding: 0px 0px 0px;
+    margin: 0px auto 30px;
+    background: white;
+}
+/*название поля*/
+.textForm {
+    position: relative;
+    top: 10px;
+    margin-top: 50px;
+}
+/*стиль input'a*/
+.textForm input {
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    font-family: Arial;
+    font-size: 28px;
+    color: #9d959d;
+    border-bottom: 2px solid #4a90e2;
+
+}
+
+/*стиль label'a*/
+.textForm label {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    color: #F77A52;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 300;
+    transform: translateY(-35px);
+    transition: all 0.2s ease;
+}
+.subjectName {
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    font-family: Arial;
+    color: #454545;
+    font-size: 24px;
+    border-bottom: 2px solid #4a90e2;
+
+}
+.button {
+
+     width: 170px;
+     height: 40px;
+     font-family: Arial;
+     font-size: 18px;
+     background: transparent;
+     color: #454545;
+     border: 2px solid #4a90e2;
+
+ }
+.button:hover {
+    background: #FFFFFF;
+    color: #2B2D35;
+    border-color: #F77A52;
+}
+.create {
+    position: relative;
+    left: 25%;
+    top: 20px;
+}
+.teacherForm label{
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    color: #F77A52;
+    font-family: Arial, serif;
+    font-size: 18px;
+}
+.teacher {
+    position: relative;
+    top: 30px;
+    left: 20px;
+    margin-top: 30px;
+    width: 90%;
+    line-height: 40px;
+    font-family: Arial, serif;
+    font-size: 24px;
+    color: #454545;
+    border-bottom: 2px solid #4a90e2;
+}
+.teacher:hover {
+    color: #aaaaaa;
+    cursor: pointer;
+}
+
+.testForm label{
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    color: #F77A52;
+    font-family: Arial;
+    font-size: 18px;
+}
+.test{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    margin-top: 30px;
+    width: 95%;
+    line-height: 40px;
+    font-family: Arial;
+    font-size: 24px;
+    color: #454545;
+    border-bottom: 2px solid #4a90e2;
+}
+.start{
+    position: relative;
+    left: 90%;
+    top: -18px;
+}
+.start:hover{
+    background: url("/img/start2.png");
+}
+.settings{
+    position: relative;
+    left: 89%;
+    top: -20px;
+}
+.settings:hover{
+    background: url("/img/settings2.png");
+}
